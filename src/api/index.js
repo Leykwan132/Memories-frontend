@@ -3,7 +3,7 @@
 import axios from "axios";
 
 // create a axios instance.
-const API = axios.create({ baseURL: "http://localhost:4000" });
+const API = axios.create({ baseURL: "https://memories-test-2.herokuapp.com/" });
 
 // function that happen on each request
 API.interceptors.request.use((req) => {
